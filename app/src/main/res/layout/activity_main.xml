@@ -8,115 +8,25 @@
     tools:context="com.example.satyakresna.androidrelativelayout.MainActivity">
 
     <!-- START TOP - CENTER-->
-    <TextView
-        android:id="@+id/ben_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Ben"
-        android:layout_centerHorizontal="true"
-        android:textColor="#fff"
-        android:textSize="16sp"
-        android:background="@color/colorAccent"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Kunal"
-        android:layout_toLeftOf="@id/ben_tv"
-        android:textColor="#fff"
-        android:textSize="16sp"
-        android:background="@color/colorAccent"
-        android:layout_marginRight="8dp"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Kagure"
-        android:layout_toRightOf="@id/ben_tv"
-        android:textColor="#fff"
-        android:textSize="16sp"
-        android:background="@color/colorAccent"
-        android:layout_marginLeft="8dp"/>
+    <!--TODO (1): Buatlah agar Kunal, Ben dan Kagure berada di posisi atas dan tengah.-->
+    <!--Kata kunci: layout_centerHorizontal, layout_toLeftOf, toRightOf-->
+    
     <!-- END TOP - CENTER -->
 
     <!-- START LEFT - BOTTOM -->
-    <TextView
-        android:id="@+id/lyla_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Lyla"
-        android:layout_alignParentBottom="true"
-        android:textColor="#fff"
-        android:textSize="16sp"
-        android:background="@color/colorAccent"
-        android:layout_marginLeft="8dp"
-        android:layout_marginBottom="8dp"/>
 
-    <TextView
-        android:id="@+id/me_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Me"
-        android:layout_alignParentBottom="true"
-        android:layout_toRightOf="@id/lyla_tv"
-        android:textColor="#fff"
-        android:textSize="16sp"
-        android:background="@color/colorAccent"
-        android:layout_marginLeft="8dp"
-        android:layout_marginBottom="8dp"/>
+    <!--TODO (2): Buatlah agar Lyla berada di pojok kiri bawah dan sejajar dengan Me. -->
+    <!--Buatlah Natalie berada di atas Lyla.-->
+    <!--Kata kunci: layout_alignParentBottom, layout_toRightOf, layout_alignParentLeft, layout_above-->
 
-    <TextView
-        android:id="@+id/natalie_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Natalie"
-        android:layout_above="@id/lyla_tv"
-        android:layout_alignParentLeft="true"
-        android:textColor="#fff"
-        android:textSize="16sp"
-        android:background="@color/colorAccent"
-        android:layout_marginLeft="8dp"
-        android:layout_marginBottom="8dp"/>
     <!-- END LEFT - BOTTOM -->
 
-    <!-- START LEFT - BOTTOM -->
-    <TextView
-        android:id="@+id/jennie_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Jennie"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:textColor="#fff"
-        android:textSize="16sp"
-        android:background="@color/colorAccent"
-        android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"/>
+    <!-- START RIGHT - BOTTOM -->
 
-    <TextView
-        android:id="@+id/omoju_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Omoju"
-        android:layout_above="@id/jennie_tv"
-        android:layout_alignParentRight="true"
-        android:textColor="#fff"
-        android:textSize="16sp"
-        android:background="@color/colorAccent"
-        android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"/>
+    <!--TODO (3): Buatlah agar Lyla berada di pojok kiri bawah dan sejajar dengan Me. -->
+    <!--Buatlah Natalie berada di atas Lyla.-->
+    <!--Kata kunci: layout_alignParentBottom, layout_alignParentRight, layout_above-->
 
-    <TextView
-        android:id="@+id/amy_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Amy"
-        android:layout_alignParentRight="true"
-        android:layout_above="@id/omoju_tv"
-        android:textColor="#fff"
-        android:textSize="16sp"
-        android:background="@color/colorAccent"
-        android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"/>
-    <!-- END LEFT - BOTTOM -->
+    <!-- END RIGTH - BOTTOM -->
 </RelativeLayout>
